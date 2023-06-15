@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="243.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.BuscadorEmpleadoController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="243.0" stroke="BLACK" strokeType="INSIDE" width="257.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6980392336845398" green="0.03921568766236305" blue="0.03921568766236305" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="276.0" layoutY="100.0" text="CEDULA:" textFill="#b20a0a">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="bloqueCedula" layoutX="348.0" layoutY="95.0" prefHeight="25.0" prefWidth="228.0" promptText="INGRESE CEDULA" />
+      <Button fx:id="botonBuscar" layoutX="440.0" layoutY="155.0" mnemonicParsing="false" onAction="#eventoValidacion" prefHeight="54.0" prefWidth="136.0" style="-fx-background-radius: 12PX;" styleClass="botonIngrese" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="SELECCIONAR" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Separator layoutX="250.0" orientation="VERTICAL" prefHeight="243.0" prefWidth="9.0" style="-fx-background-color: black;" />
+      <Button layoutX="552.0" layoutY="-11.0" mnemonicParsing="false" onAction="#cerrarventa" prefHeight="44.0" prefWidth="40.0" style="-fx-background-color: tranparente;" text="X" textFill="#b20a0a" fx:id="x">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

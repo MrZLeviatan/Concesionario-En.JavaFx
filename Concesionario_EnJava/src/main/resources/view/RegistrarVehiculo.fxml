@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="482.0" prefWidth="458.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.RegistrarVehiculoController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="483.0" stroke="BLACK" strokeType="INSIDE" width="218.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.6980392336845398" green="0.03921568766236305" blue="0.03921568766236305" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color red="0.6980392336845398" green="0.03921568766236305" blue="0.03921568766236305" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Button fx:id="botonPickUps" layoutX="282.0" layoutY="41.0" mnemonicParsing="false" onAction="#pickUps" prefHeight="42.0" prefWidth="123.0" styleClass="botonIngrese" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="PICK UPS" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="botonBuses" layoutX="282.0" layoutY="101.0" mnemonicParsing="false" onAction="#buses" prefHeight="42.0" prefWidth="123.0" styleClass="botonIngrese" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="BUSES" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="282.0" layoutY="164.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="123.0" styleClass="botonIngrese" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="SEDAN" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="282.0" layoutY="227.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="123.0" styleClass="botonIngrese" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="MOTOS" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="282.0" layoutY="289.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="123.0" styleClass="botonIngrese" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="VANS" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="282.0" layoutY="410.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="123.0" styleClass="botonIngrese" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="CAMIONES" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="282.0" layoutY="350.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="123.0" styleClass="botonIngrese" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="DEPORTIVOS" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Separator layoutX="215.0" orientation="VERTICAL" prefHeight="483.0" prefWidth="12.0" style="-fx-background-color: BLACK;" />
+      <Label alignment="CENTER" layoutX="427.0" onMouseClicked="#labCerrar" prefHeight="42.0" prefWidth="35.0" styleClass="X" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="X" fx:id="x">
+         <font>
+            <Font name="Arial Bold Italic" size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

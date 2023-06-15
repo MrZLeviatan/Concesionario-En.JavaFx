@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="477.0" prefWidth="717.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.LoginController">
+   <children>
+      <Pane prefHeight="477.0" prefWidth="382.0">
+         <children>
+            <Separator layoutX="369.0" orientation="VERTICAL" prefHeight="477.0" prefWidth="11.0" style="-fx-background-color: black;" />
+            <Label fx:id="textoContraseña" layoutX="14.0" layoutY="231.0" text="INGRESE CONTRASEÑA:" textFill="#b20a0a">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="bloqueContraseña" layoutX="191.0" layoutY="226.0" onKeyTyped="#eventEspaciosBlancos" prefHeight="25.0" prefWidth="170.0" promptText="CONTRASEÑA" />
+            <Button fx:id="botonIngreso" layoutX="198.0" layoutY="289.0" mnemonicParsing="false" onAction="#eventoValidacion" prefHeight="44.0" prefWidth="156.0" style="-fx-background-radius: 12px;" styleClass="botonRegistro" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="INGRESE" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold Italic" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="botonRecuperar" layoutX="14.0" layoutY="289.0" mnemonicParsing="false" onAction="#eventoRecuperar" prefHeight="44.0" prefWidth="156.0" style="-fx-background-radius: 12px;" styleClass="botonIngrese" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="RECUPERAR" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold Italic" size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="textoUsuario" layoutX="14.0" layoutY="194.0" text="INGRESE USUARIO:" textFill="#b20a0a">
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="bloqueUsuario" layoutX="191.0" layoutY="189.0" onKeyTyped="#eventEspaciosBlancos" prefHeight="25.0" prefWidth="170.0" promptText="CORREO" />
+         </children>
+      </Pane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="477.0" layoutX="380.0" stroke="BLACK" strokeType="INSIDE" width="342.0">
+         <fill>
+            <LinearGradient endX="0.3175355450236967" endY="0.4075829383886256" startX="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6980392336845398" green="0.03921568766236305" blue="0.03921568766236305" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <ImageView fitHeight="335.0" fitWidth="314.0" layoutX="392.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagenes/ImagenLogo2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="126.0" layoutX="486.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagenes/LogoDeLaEmpresa.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="697.0" layoutY="-11.0" onMouseClicked="#labCerrar" styleClass="X" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="x" textFill="WHITE" fx:id="x">
+         <font>
+            <Font name="System Bold Italic" size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

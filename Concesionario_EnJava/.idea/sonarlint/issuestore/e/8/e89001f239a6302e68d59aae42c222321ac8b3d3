@@ -1,0 +1,12 @@
+
+g	java:S112t"FDefine and throw a dedicated exception instead of using a generic one.(ÕŞÀóùÿÿÿÿ8ğµ¹‡1
+k
+java:S1192O"IDefine a constant instead of duplicating this literal "ERROR!!!" 3 times.(â’¹ıÿÿÿÿ8ñµ¹‡1
+L
+java:S1066X"/Merge this if statement with the enclosing one.(‚®·œ8ñµ¹‡1
+}	java:S116$"\Rename this field "bloqueContraseÃ±a" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œŠ—Õûÿÿÿÿ8Î¶¹‡1
+|	java:S1160"[Rename this field "textoContraseÃ±a" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïìüŒıÿÿÿÿ8Î¶¹‡1
+O
+java:S11359"2Complete the task associated to this TODO comment.(…ïœ†8Ó¶¹‡1
+‰
+java:S1130H"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ÁØé–8á¶¹‡1

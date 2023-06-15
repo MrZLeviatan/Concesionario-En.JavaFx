@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="477.0" prefWidth="717.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.OpcionesEmpleadosController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="483.0" layoutX="258.0" layoutY="-6.0" stroke="BLACK" strokeType="INSIDE" width="459.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6980392336845398" green="0.03921568766236305" blue="0.03921568766236305" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Separator layoutX="244.0" orientation="VERTICAL" prefHeight="477.0" prefWidth="15.0" style="-fx-background-color: black;" />
+      <Button fx:id="botonRegistrar" layoutX="23.0" layoutY="116.0" mnemonicParsing="false" onAction="#eventoRegistro" prefHeight="54.0" prefWidth="197.0" style="-fx-background-radius: 12;" styleClass="botonIngrese" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="REGISTRAR" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="botonEliminar" layoutX="23.0" layoutY="219.0" mnemonicParsing="false" onAction="#eventoEliminar" prefHeight="54.0" prefWidth="197.0" style="-fx-background-radius: 12px;" styleClass="botonIngrese" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="ELIMINAR" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="674.0" onMouseClicked="#labCerrar" prefHeight="54.0" prefWidth="42.0" styleClass="X2" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="X" textFill="WHITE" fx:id="x">
+         <font>
+            <Font name="System Bold Italic" size="34.0" />
+         </font>
+      </Label>
+      <Label fx:id="volver" alignment="CENTER" layoutX="1.0" layoutY="421.0" onMouseClicked="#eventoVolver" prefHeight="54.0" prefWidth="42.0" styleClass="X2" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="«">
+         <font>
+            <Font name="System Bold Italic" size="39.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tablaEmpleados" editable="true" layoutX="271.0" layoutY="63.0" prefHeight="386.0" prefWidth="433.0" style="b: white;">
+        <columns>
+          <TableColumn fx:id="tNombres" editable="false" prefWidth="92.0" text="NOMBRE" />
+          <TableColumn fx:id="tCedula" editable="false" prefWidth="115.0" text="CEDULA" />
+            <TableColumn fx:id="tCorreo" editable="false" prefWidth="92.0" text="CORREO" />
+            <TableColumn fx:id="tContraseña" editable="false" prefWidth="133.0" text="CONTRASEÑA" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="21.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagenes/LogoLetras.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="botonMosrtrar" layoutX="23.0" layoutY="328.0" mnemonicParsing="false" onAction="#eventoLlenar" prefHeight="54.0" prefWidth="197.0" style="-fx-background-radius: 12px;" styleClass="botonIngrese" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="MOSTRAR EMPLEADOS" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+
+E
+java:S10667"/Merge this if statement with the enclosing one.(‚®·œ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¥ŸÕùÿÿÿÿ
+m	java:S116"YRename this field "BotonRecuperar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀŠàa
+f	java:S116"LRename this field "X" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ¬¼‘úÿÿÿÿ
+v	java:S116""\Rename this field "BloqueContraseÃ±a" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èû€Şúÿÿÿÿ
+H
+java:S1135'"2Complete the task associated to this TODO comment.(…ïœ†
+‚
+java:S11302"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ÁØé–
+N
+java:S1854N"8Remove this useless assignment to local variable "pass".(ÅúÅ¼
+?
+java:S1481N")Remove this unused "pass" local variable.(ÅúÅ¼

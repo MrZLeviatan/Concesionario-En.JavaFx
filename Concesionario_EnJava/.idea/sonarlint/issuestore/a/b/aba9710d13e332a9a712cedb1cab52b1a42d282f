@@ -1,0 +1,18 @@
+
+D
+java:S1659".Declare "velocidadCruzero" on a separate line.(øÎ„Å
+f
+java:S1659"KDeclare "sensorColision" and all following declarations on a separate line.(íé×ªıÿÿÿÿ
+\	java:S107	"BConstructor has 22 parameters, which is greater than 7 authorized.(“üí×ùÿÿÿÿ
+K
+java:S1068"5Remove this unused "capacidadMaletero" private field.(øÎ„Å
+J
+java:S1068"4Remove this unused "velocidadCruzero" private field.(øÎ„Å
+B
+java:S1068"'Remove this unused "abs" private field.(íé×ªıÿÿÿÿ
+M
+java:S1068"2Remove this unused "sensorColision" private field.(íé×ªıÿÿÿÿ
+S
+java:S1068"8Remove this unused "sensorTraficoCruzado" private field.(íé×ªıÿÿÿÿ
+Y
+java:S1068">Remove this unused "asistentePermanenciaCarril" private field.(íé×ªıÿÿÿÿ

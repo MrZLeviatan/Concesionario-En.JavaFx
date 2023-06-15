@@ -1,0 +1,98 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19/05/2023, 1:34:21 a. m.
+    Author     : Mr. Nicolas
+*/
+
+/*
+    COLOR PRETERMINADO
+*/
+.botonRegistro{
+    -fx-background-color:  #B20A0A;
+    
+}
+
+/*
+    COLOR CUANDO PASA POR ENCIMA EL MOUSE
+*/
+.botonRegistro:hover{
+    
+    -fx-background-color:  #EA1B07;
+    
+}
+
+/*
+    COLOR CUANDO ES PRESIONADO
+*/
+
+.botonRegistro:pressed {
+    
+    -fx-background-color: #810000;
+    
+}
+
+.botonIngrese{
+    -fx-background-color:   #B20A0A;
+    
+}
+.botonIngrese:hover{
+    
+    -fx-background-color:  #EA1B07;
+    
+}
+
+.botonIngrese:pressed {
+    
+    -fx-background-color: #810000;
+    
+}
+
+.X{
+    -fx-backgound-color: #FFFFFF
+    
+}
+
+.X:hover{
+    
+    -fx-background-color: #450000
+}
+
+.x:pressed{
+    
+    -fx-background-color: #B20A0A
+}
+
+.X2{
+    -fx-backgound-color: #000000
+}
+
+.X2:hover{
+    
+    -fx-background-color: #450000
+}
+
+.x2:pressed{
+    
+    -fx-background-color: #B20A0A
+        
+}
+
+.Tranpariencia{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+}
+
+
+
+.Tranpariencia:pressed {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}

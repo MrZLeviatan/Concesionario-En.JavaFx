@@ -1,0 +1,15 @@
+
+\	java:S107"BConstructor has 22 parameters, which is greater than 7 authorized.(ïˆşıÿÿÿÿ
+H
+java:S1068"2Remove this unused "capacidadCarga" private field.(ã¨´õ
+O
+java:S1068"4Remove this unused "aireAcondiconado" private field.(»ıœÉùÿÿÿÿ
+D
+java:S1068".Remove this unused "frenosAire" private field.(œıùı
+B
+java:S1068"'Remove this unused "abs" private field.(¬½Ó›ıÿÿÿÿ
+I
+java:S1068	".Remove this unused "numeroEjes" private field.(‰…Ÿøÿÿÿÿ
+D
+java:S1068
+".Remove this unused "tipoCamion" private field.(ù«¸«

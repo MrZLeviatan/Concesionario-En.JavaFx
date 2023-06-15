@@ -1,0 +1,8 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(½ÛÛ€
+^
+java:S1659"CDeclare "correo" and all following declarations on a separate line.(öøíùÿÿÿÿ
+‡
+java:S1130"qRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from constructor's body.(½ÛÛ€
+J
+java:S1068	"(Remove this unused "edad" private field.(®ÂèÍûÿÿÿÿ8°Ô°‡1

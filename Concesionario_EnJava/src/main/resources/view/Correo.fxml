@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="323.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.CorreoController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="336.0" layoutY="-7.0" stroke="BLACK" strokeType="INSIDE" width="238.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.6980392336845398" green="0.03921568766236305" blue="0.03921568766236305" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Separator layoutX="238.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="330.0" prefWidth="11.0" style="-fx-background-color: black;" />
+      <Label layoutX="261.0" layoutY="101.0" text="CORREO:" textFill="#b20a0a">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="162.0" text="PALABRA SECRETA:" textFill="#b20a0a">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="botonCerrar" layoutX="269.0" layoutY="242.0" mnemonicParsing="false" onAction="#eventoRecuperar" prefHeight="48.0" prefWidth="131.0" style="-fx-background-radius: 12PX;" styleClass="botonIngrese" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="RECUPERAR" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="botonIngresar" layoutX="435.0" layoutY="242.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="131.0" style="-fx-background-radius: 12PX;" styleClass="botonIngrese" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="INGRESAR" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="bloqueCorreo" layoutX="359.0" layoutY="97.0" prefHeight="25.0" prefWidth="222.0" promptText="INGRESE CORREO" />
+      <TextField fx:id="bloquePalabra" layoutX="411.0" layoutY="158.0" prefHeight="25.0" prefWidth="165.0" promptText="INGRESE PALABRA SECRETA" />
+      <Label layoutX="570.0" onMousePressed="#labCerrar" styleClass="X" stylesheets="@../HojasEstilo/HojaEstiloBotones.css" text="X" fx:id="x">
+         <font>
+            <Font name="System Bold Italic" size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

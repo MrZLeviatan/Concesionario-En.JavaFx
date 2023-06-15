@@ -1,0 +1,14 @@
+
+e
+java:S1659"JDeclare "numeroPuertas" and all following declarations on a separate line.(Žª×‡ÿÿÿÿÿ
+\	java:S107"BConstructor has 15 parameters, which is greater than 7 authorized.(£ÊÍãùÿÿÿÿ
+N
+java:S1068"3Remove this unused "numeroPasajeros" private field.(Žª×‡ÿÿÿÿÿ
+L
+java:S1068"1Remove this unused "numeroPuertas" private field.(Žª×‡ÿÿÿÿÿ
+K
+java:S1068"0Remove this unused "numeroBolsas" private field.(Žª×‡ÿÿÿÿÿ
+M
+java:S1068"2Remove this unused "caballosFuerza" private field.(Žª×‡ÿÿÿÿÿ
+C
+java:S1068".Remove this unused "tiempo100k" private field.(Þð¢5
